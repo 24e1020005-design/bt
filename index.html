@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top 10 Giáo trình tiếng Trung tốt nhất 2025 – Tiếng Trung Chinese</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    /* Header với Logo */
+    header {
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+      color: white;
+      text-align: center;
+      padding: 30px 20px 50px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      position: relative;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      font-weight: bold;
+      color: #e74c3c;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      margin-right: 15px;
+    }
+
+    .site-name {
+      text-align: left;
+    }
+
+    .site-name h1 {
+      font-size: 28px;
+      margin: 0;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .site-name p {
+      font-size: 16px;
+      opacity: 0.95;
+      margin: 5px 0 0;
+    }
+
+    header h2 {
+      font-size: 32px;
+      margin: 20px 0 10px;
+      font-weight: 700;
+    }
+
+    header p.subtitle {
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .welcome {
+      background: white;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .welcome h3 {
+      color: #e74c3c;
+      font-size: 26px;
+      margin-bottom: 12px;
+    }
+
+    .top-list {
+      background: white;
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+      margin-bottom: 30px;
+    }
+
+    .top-item {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 30px;
+    }
+
+    .top-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .top-item h3 {
+      color: #e74c3c;
+      font-size: 24px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+    }
+
+    .top-item h3::before {
+      content: attr(data-rank);
+      background: #e74c3c;
+      color: white;
+      font-size: 20px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      box-shadow: 0 2px 8px rgba(231,76,60,0.3);
+    }
+
+    .top-item p {
+      margin-bottom: 18px;
+      color: #444;
+      font-size: 16px;
+    }
+
+    .book-cover {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .book-cover img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: #27ae60;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 8px 5px 8px 0;
+      transition: 0.3s;
+      box-shadow: 0 3px 10px rgba(39,174,96,0.2);
+    }
+
+    .download-btn:hover {
+      background: #1e8449;
+      transform: translateY(-2px);
+    }
+
+    .big-download {
+      display: block;
+      background: #e74c3c;
+      color: white;
+      text-align: center;
+      padding: 22px;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 14px;
+      text-decoration: none;
+      margin: 30px 0;
+      box-shadow: 0 6px 20px rgba(231,76,60,0.3);
+    }
+
+    .big-download:hover {
+      background: #c0392b;
+      transform: translateY(-3px);
+    }
+
+    .logout {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #34495e;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 14px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: 0.3s;
+      z-index: 100;
+    }
+
+    .logout:hover {
+      background: #2c3e50;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #7f8c8d;
+      font-size: 14px;
+      border-top: 1px solid #eee;
+      margin-top: 60px;
+      background: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .logo-container {
+        flex-direction: column;
+      }
+      .logo {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+      .site-name h1 { font-size: 24px; }
+      header h2 { font-size: 26px; }
+      .top-item h3 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header với Logo -->
+  <header>
+    < finalists>
+      <div class="logo-container">
+        <div class="logo">中</div>
+        <div class="site-name">
+          <h1>Tiếng Trung Chinese</h1>
+          <p>Trung tâm luyện thi HSK – HSKK</p>
+        </div>
+      </div>
+    </finalists>
+    <h2>Top 10 Giáo trình tiếng Trung tốt nhất năm 2025</h2>
+    <p class="subtitle">Hướng dẫn học tiếng Trung hiệu quả – Đảm bảo đầu ra 100%</p>
+  </header>
+
+  <div class="container">
+    <div class="welcome">
+      <h3>Xin chào, <span id="welcomeUser">Bạn</span>!</h3>
+      <p>Dưới đây là danh sách **Top 10 giáo trình tiếng Trung được đánh giá cao nhất 2025**, phù hợp cho mọi trình độ từ HSK 1 đến HSK 6.</p>
+    </div>
+
+    <div class="top-list">
+
+      <!-- 1. Giáo trình Chuẩn HSK -->
+      <div class="top-item">
+        <h3 data-rank="1">Giáo trình Chuẩn HSK (Standard Course) – Đại học Ngôn ngữ Bắc Kinh</h3>
+        <p>Giáo trình chính thức, bám sát đề thi HSK 1–6. Có bản tiếng Việt, PDF + MP3 đầy đủ. Phù hợp tự học và luyện thi.</p>
+        <div class="book-cover">
+          <img src="https://via.placeholder.com/600x400?text=HSK+Standard+Course" alt="Giáo trình Chuẩn HSK">
+        </div>
+        <a href="#" class="download-btn">Tải HSK 1–6 (PDF + MP3)</a>
+      </div>
+
+      <!-- 2. Hán ngữ 6 quyển Phiên bản 3 -->
+      <div class="top-item">
+        <h3 data-rank="2">Hán ngữ 6 quyển – Phiên bản 3 (2024)</h3>
+        <p>Bộ sách kinh điển, 4 kỹ năng nghe nói đọc viết. Phiên bản mới nhất, có lời giải + phân tích chi tiết từng bài.</p>
+        <a href="#" class="download-btn">Tải Hán ngữ 6 quyển</a>
+      </div>
+
+      <!-- 3. Msutong Cao cấp -->
+      <div class="top-item">
+        <h3 data-rank="3">Msutong Cao cấp Quyển 2 & 3</h3>
+        <p>Dành cho trình độ cao, chủ đề xã hội, văn hóa. Có bài phân tích + đáp án bài tập chi tiết.</p>
+        <a href="#" class="download-btn">Tải Msutong Cao cấp</a>
+      </div>
+
+      <!-- 4. Tiếng Trung Đương Đại -->
+      <div class="top-item">
+        <h3 data-rank="4">Tiếng Trung Đương Đại (Contemporary Chinese)</h3>
+        <p>Học giao tiếp thực tế, gần gũi. Có đáp án bài tập + file nghe MP3.</p>
+        <a href="#" class="download-btn">Tải Đương Đại 1–2</a>
+      </div>
+
+      <!-- 5–10: Các giáo trình khác -->
+      <div class="top-item">
+        <h3 data-rank="5">Boya Chinese</h3>
+        <p>Phù hợp du học sinh, từ sơ cấp đến cao cấp.</p>
+      </div>
+
+      <div class="top-item">
+        <h3 data-rank="6">New Practical Chinese Reader</h3>
+        <p>Giáo trình quốc tế, nhiều hình ảnh, tình huống thực tế.</p>
+      </div>
+
+      <div class="top-item">
+        <h3 data-rank="7">HSK Online Practice Tests</h3>
+        <p>Bộ đề thi thử sát đề thật, có giải thích đáp án.</p>
+      </div>
+
+      <div class="top-item">
+        <h3 data-rank="8">Integrated Chinese</h3>
+        <p>Giáo trình Mỹ, dạy ngữ pháp + văn hóa song song.</p>
+      </div>
+
+      <div class="top-item">
+        <h3 data-rank="9">Short-term Spoken Chinese</h3>
+        <p>Tập trung giao tiếp nhanh, thực dụng.</p>
+      </div>
+
+      <div class="top-item">
+        <h3 data-rank="10">Developing Chinese</h3>
+        <p>Giáo trình toàn diện, có bài tập nâng cao.</p>
+      </div>
+
+    </div>
+
+    <!-- Nút tải toàn bộ -->
+    <a href="#" class="big-download">
+      TẢI TOÀN BỘ TOP 10 GIÁO TRÌNH TIẾNG TRUNG 2025
+    </a>
+  </div>
+
+  <!-- Nút đăng xuất -->
+  <a href="#" class="logout" id="logoutBtn">Đăng xuất</a>
+
+  <footer>
+    © 2025 <strong>Trung tâm tiếng Trung Chinese</strong><br>
+    Luyện thi HSK, HSKK – Đảm bảo đầu ra 100%<br>
+    Hotline: 090xxx xxxx | Email: contact@chinese.edu.vn
+  </footer>
+
+  <script>
+    // Kiểm tra đăng nhập
+    window.onload = function() {
+      if (localStorage.getItem("isLoggedIn") !== "true") {
+        window.location.href = "login.html";
+      } else {
+        const user = localStorage.getItem("currentUser") || "Bạn";
+        document.getElementById("welcomeUser").textContent = user;
+      }
+    };
+
+    // Đăng xuất
+    document.getElementById("logoutBtn").addEventListener("click", function(e) {
+      e.preventDefault();
+      localStorage.removeItem("isLoggedIn");
+      localStorage.removeItem("currentUser");
+      window.location.href = "login.html";
+    });
+  </script>
+</body>
+</html>
